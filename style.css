@@ -1,0 +1,52 @@
+.recipe-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid rgb(204, 207, 204);
+  padding: 5px;
+  flex: 0 0 calc(30% - 20px);
+  margin: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  margin: 10px;
+  font-family: "Roboto Slab", serif;
+  align-self: flex-start;
+  font-size: 14px;
+}
+
+.card p {
+  margin: 0 10px 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #868686;
+  align-self: flex-start;
+}
+
+.card .image-div {
+  flex: 1;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-self: flex-end;
+}
+
+.card .image-div img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  align-self: flex-end;
+}
